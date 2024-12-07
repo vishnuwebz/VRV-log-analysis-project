@@ -68,7 +68,7 @@ def save_to_csv(ip_requests, most_accessed, suspicious_activity, file_name='log_
 
 # Main script execution
 if __name__ == "__main__":
-    log_file_path = 'sample.log'  # Replace with the actual path to your log file
+    log_file_path = 'sample.log'  # Actual path to the log file
     logs = parse_log_file(log_file_path)
 
     # Count requests per IP
